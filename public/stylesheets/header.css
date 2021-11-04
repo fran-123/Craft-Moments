@@ -1,0 +1,182 @@
+/* HEADER PC */
+
+.header .nav-header-pc{
+    display: none;
+}
+
+
+
+/* ----------- */
+
+.header{
+
+}
+
+.header .nav-header-mobil{
+
+}
+
+.header .nav-mobile{
+    background-color: var(--color-yellow);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header .nav-mobile__burguer{
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.header .nav-mobile__burguer i{ /* icono de menu hamburguer */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header .nav-mobile__logo{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header .nav-mobile__logo__logo {
+    font-family: var(--font-title);
+    font-size: 30px;
+}
+
+.header .mobile-search{
+    background-color: var(--color-productGround);
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .mobile-search__contain{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header .mobile-search__search{ /* contenedor del buscador */
+    background-color: #fff;
+    width: 93%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    padding-left: 10px;
+    font-family: var(--font-p);
+
+}
+
+.header .mobile-search__lupa{ /* contenedor de lupa */
+    position: absolute;
+    right: 50px;
+}
+
+.header .mobile-search__search .mobile-search__lupa i{ /* icono lupa */
+
+}
+
+.header .nav-burguer{
+    background-color: var(--color-productGround);
+    height: 100vh;
+    position: fixed;
+    width: 68%;
+    top: 0;
+    transform: translateX(-600px);
+    z-index: 2000;
+}
+
+/* agregando js para menu mobile */
+
+.header .openBurguerM{
+    transform: unset;
+    transition: transform .6s;
+    opacity: unset;
+}
+
+.header .transparentMenuBurguer{
+    background: #0000007a;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+}
+
+/* -----------------------------------  */
+
+.header .nav-burguer__containUser{
+    background-color: var(--color-productGround);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.header .nav-burguer__user{
+    color: #000;
+    font-size: 26px;
+    margin-left: 30px;
+    background-color: var(--color-yellow);
+    border-radius: 100px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    border: #000 1px solid;
+}
+
+.header .nav-burguer__user i{
+
+}
+
+.header .nav-burguer__fraseUser{
+    color: var(--color-yellow);
+    margin-left: 10px;
+    font-family: var(--font-p2);
+    font-size: 25px;
+}
+
+.header .nav-burguer__cruz{
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    font-size: 22px;
+    padding: 0px 3px;
+}
+
+.header .nav-burguer__ul{
+    background-color: var(--color-productGround);
+}
+
+.header .nav-burguer__li{
+    border-top: var(--color-yellow) 1px solid;
+    padding: 6px 0;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-yellow);
+}
+
+.header .nav-burguer__li a{
+    color: var(--color-yellow);
+}
+
+.header .nav-burguer__arrow{
+    color: #fff;
+}
+
+/* espacio tablet */
+
+@media (784px) {
+    
+}

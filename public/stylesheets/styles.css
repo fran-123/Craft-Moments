@@ -1,0 +1,12 @@
+@import url("/stylesheets/general.css");
+@import url("/stylesheets/header.css");
+@import url("/stylesheets/home.css");
+@import url("/stylesheets/footer.css");
+
+/* fuentes de letras */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* titulos */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500&display=swap');
+
+/* posible p */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');

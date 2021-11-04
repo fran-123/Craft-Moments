@@ -1,0 +1,79 @@
+.footer{
+
+}
+
+.footer .footer__section{
+    background-color: var(--color-productGround);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer .piePag{
+
+}
+
+.footer .piePag h2{
+    color: var(--color-yellow);
+    font-family: var(--font-title);
+}
+
+.footer .piePag h2 a{
+    color: var(--color-yellow);
+    font-family: var(--font-title);
+}
+
+.footer .piePag p{
+    color: #fff;
+    font-family: var(--font-p2);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footer .piePag__containHand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .piePag__containHand div{
+    background-color: var(--color-yellow);
+    height: 1px;
+    display: inline-block;
+    width: 40%;
+}
+
+.footer .piePag__containIcon{
+    color: var(--color-yellow);
+    font-size: 25px;
+    padding: 10px;
+}
+
+/* icono de redes sociales */
+
+.footer .iconos{
+    background: var(--color-productGround);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.footer .iconos a{
+    color: var(--color-yellow);
+    font-size: 45px;
+    border-radius: 100px;
+}
+
+.footer .iconos a i{
+    
+}
+
+.footer .copiRigth{
+    background-color: var(--color-yellow);
+    text-align: center;
+}
+
+.footer .copiRigth__p{
+    color: #000;
+    font-family: var(--font-p);
+    padding: 15px;
+}
