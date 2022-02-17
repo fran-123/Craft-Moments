@@ -1,0 +1,126 @@
+
+.article-product{
+    background: linear-gradient(135deg, #272727 0%, #151515 50%, #000000 100%);
+    width: 180px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 5px #000;
+    margin-bottom: 25px;
+    position: relative;;
+}
+
+.contain-img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.contain-img__img{
+    width: 100%;
+}
+
+.contain-content{
+    padding-left: 6px;
+}
+
+.contain-content h5{
+    color: var(--color-yellow);
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-family: var(--font-p2);
+}
+
+.contain-content p{
+    color: #fff;
+    font-family: var(--font-p2);
+    font-size: 18px;
+}
+
+.contain-content span{
+    color: var(--color-yellow);
+    font-family: var(--font-p);
+    font-size: 18px;
+}
+
+.contain-botons{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    margin-top: 12px;
+}
+
+.contain-botons__content{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.contain-botons__ver{
+    background-color: #000;
+    padding: 5px 20px;
+    border-radius: 4px 0 0 4px;
+}
+
+.contain-botons__ver__a{
+    color: var(--color-yellow);
+    font-family: var(--font-p);
+    text-transform: capitalize;
+}
+
+.contain-botons__ver__a:hover{
+    color: #fff;
+}
+
+.contain-botons__favorite{
+    background-color: #fff;
+    padding: 5px 9px;
+    border-radius: 50px;
+    margin-right: -19px;
+    z-index: 1000;
+}
+
+.contain-botons__favorite i{ /* icono corazon */
+
+}
+
+.contain-botons__cart{
+    background-color: var(--color-yellow);
+    padding: 5px 15px;
+    color: #000;
+    font-family: var(--font-p);
+    text-transform: capitalize;
+    border-radius: 0 4px 4px 0;
+    width: 100%;
+}
+
+.contain-botons__cart:hover{
+    color: #fff;
+}
+
+/* boder */
+
+.article-product svg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+
+.article-product rect{
+    width: 100%;
+    height: 100%;
+    stroke: var(--color-yellow);
+    stroke-width: 4px;
+    stroke-dasharray: 1140;
+    stroke-dashoffset: 1140;
+    transition: .7s ease all;
+}
+
+.article-product:hover rect{
+    stroke-dashoffset: 0;
+}

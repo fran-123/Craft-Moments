@@ -1,0 +1,125 @@
+.productDetail{
+
+}
+
+.productDetail .cardProductContain{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    background-color: var(--color-productGround);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    padding: 20px 0px;
+    box-shadow: 0px 0px 15px 2px #000;
+    flex-direction: column;
+}
+
+.productDetail .cardProductContain__containImg{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.productDetail .cardProductContain__containImg img{
+    width: 100%;
+}
+
+/* info del producto */
+
+.productDetail .conatinFullInfo{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.productDetail .conatinInfo{
+
+}
+
+.productDetail .conatinInfo__h2{
+    font-family: var(--font-p2);
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--color-yellow);
+}
+
+.productDetail .conatinInfo__p{
+    font-family: var(--font-p2);
+    font-weight: 900;
+    font-size: 23px;
+    text-align: start;
+    overflow: auto;
+    max-height: 450px;
+    color: #fff;
+    line-height: 1.6;
+    text-transform: uppercase;
+}
+
+.productDetail .containOptionBuy{
+    margin-top: 22px;
+}
+
+.productDetail .containOptionBuy__infoBuy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--color-yellow);
+    margin-top: 15px;
+    padding-left: 12px;
+}
+
+.productDetail .containOptionBuy__infoBuy--p{
+    color: #fff;
+    font-family: var(--font-p2);
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.productDetail .containOptionBuy__infoBuy--span{
+    color: #fff;
+    font-family: var(--font-p2);
+    font-size: 26px;
+}
+
+.productDetail .containOptionBuy__infoBuy--button{
+    background-color: var(--color-yellow);
+    font-family: var(--font-title);
+    font-size: 22px;
+    width: 150px;
+    border: none;
+    height: 40px;
+    transition: border-radius .4s;
+}
+
+.productDetail .containOptionBuy__infoBuy--button:hover{
+    border-radius: 200px 0px;
+    transition: border-radius .6s;
+}
+
+@media (min-width:768px) {
+
+    .productDetail .cardProductContain{
+        display: flex;
+        width: 70%;
+        box-shadow: 15px 19px 13px #000;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+
+    .productDetail .cardProductContain__containImg{
+        width: 45%;
+    }
+
+    .productDetail .cardProductContain__containImg img{
+        width: 100%;
+    }
+
+    /* info del producto */
+
+    .productDetail .conatinFullInfo{
+        width: 52%;
+    }
+
+    
+
+}

@@ -60,6 +60,7 @@
     border-radius: 50px;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 }
 
 .header .mobile-search__search{ /* contenedor del buscador */
@@ -76,7 +77,7 @@
 
 .header .mobile-search__lupa{ /* contenedor de lupa */
     position: absolute;
-    right: 50px;
+    right: 8px;
 }
 
 .header .mobile-search__search .mobile-search__lupa i{ /* icono lupa */
@@ -175,8 +176,133 @@
     color: #fff;
 }
 
-/* espacio tablet */
 
-@media (784px) {
+@media (min-width:1024px) {
+
+    /* congig de modo  mobil */
+    .header .nav-header-mobil{
+        display: none;
+    }
+
+    .header .transparentMenuBurguer {
+        display: none;
+    }
+
+    .header .nav-burguer { /* menu hamburguer */
+        display: none;
+    }
+
+    /* modo pc */
     
+    .header .nav-header-pc{
+        display: block;
+        background-color: var(--color-yellow);
+    }
+
+    .header .nav-header-destock{
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+    }
+
+    .header .nav-header__logo{
+
+    }
+
+    .header .nav-header__logo h4{
+        width: 100%;
+        font-family: var(--font-title);
+        font-size: 34px;
+    }
+
+    .header .nav-header__search{
+        width: 46%;
+    }
+
+    .header .contain-search{
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .header .contain-search__search{
+        width: 100%;
+        border-radius: 200px;
+        border: 1px solid #000;
+        padding: 2px;
+        padding-left: 10px;
+    }
+
+    .header .contain-search__lupa{
+        position: absolute;
+        right: 10px;
+    }
+
+    .header .contain-search__lupa i{
+
+    }
+
+    .header .nav-header__optionUser{
+        display: flex;
+        width: 8%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header .optionUser__user{ /* span */
+        
+    }
+
+    .header .optionUser__a{
+        color: var(--color-productGround);
+        font-size: 25px;
+    }
+    
+    .header .optionUser__a i{
+        
+    }
+
+    /* sub navegacion // productos categorias */
+
+    .header .nav-booton{
+
+    }
+
+    .header .nav-booton__ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .header .nav-booton__li{
+
+    }
+
+    .header .nav-booton__li a{ /* todas las a */
+        color: var(--color-productGround);
+        font-size: 18px;
+        font-weight: 500;
+        padding: 7px;
+    }
+
+    .header .nav-booton__cevezas{
+
+    }
+
+    .header .nav-booton__packs{
+
+    }
+
+    .header .nav-booton__vinos{
+
+    }
+
+    .header .nav-booton__listProducts{
+
+    }
+
+
 }

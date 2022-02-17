@@ -1,0 +1,182 @@
+.userLogin{
+
+}
+
+.userLogin .containTitle{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+.userLogin .containTitle__title{
+    font-size: 33px;
+    color: var(--color-yellow);
+    font-family: var(--font-title);
+}
+
+.userLogin .formLogin{
+
+}
+
+.userLogin .contain__IrRegister{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.userLogin .formLogin__IrRegister{
+    color: #9098B1;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.userLogin .cardIngreso{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.userLogin .cardIngreso__containInput{
+    position: relative;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.userLogin .cardIngreso__containInput--span{
+    position: absolute;
+    color: var(--color-yellow);
+    font-size: 27px;
+    margin-left: 5px;
+}
+
+.userLogin .cardIngreso__containInput--input{
+    width: 100%;
+    padding: 8px;
+    background-color: var(--color-productGround);
+    border: 1px solid var(--color-yellow);
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 39px;
+}
+
+.userLogin .containButton{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.userLogin .containButton__button{
+    width: 100%;
+    padding: 9px;
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--font-title);
+    font-size: 22px;
+    box-shadow: 0 0 12px 0px var(--color-yellow);
+    transition: background-color .6s, box-shadow .6s, color .6s;
+}
+
+.userLogin .containButton__button:hover{
+    background-color: var(--color-neonYellow);
+    box-shadow: 0 0 12px 0px var(--color-neonYellow);
+    color: #2a2626;
+    transition: all .5s;
+}
+
+.userLogin .contaonOtherLogin{
+    
+}
+
+.userLogin .containOR{
+
+}
+
+.userLogin .containOR__linea{
+
+}
+
+.userLogin .containOR__linea i{
+
+}
+
+.userLogin .otherCardIngreso{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
+
+.userLogin .otherCardIngreso__containInput{
+    position: relative;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.userLogin .otherCardIngreso__containInput--span{
+    position: absolute;
+    color: var(--color-yellow);
+    font-size: 27px;
+    margin-left: 17px;
+    z-index: 1000;
+}
+
+.userLogin .loginWhithGoogle{
+    width: 100%;
+    padding: 9px;
+    background-color: var(--color-productGround);
+    border: 1px solid var(--color-yellow);
+    border-radius: 5px;
+    font-family: var(--font-p2);
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--color-yellow);
+}
+
+.userLogin .loginWhithFacebook{
+    width: 100%;
+    padding: 9px;
+    background-color: var(--color-productGround);
+    border: 1px solid var(--color-yellow);
+    border-radius: 5px;
+    font-family: var(--font-p2);
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--color-yellow);
+    position: relative;
+    overflow: hidden;
+}
+
+/* .userLogin .loginWhithFacebook:hover{
+    color: #000;
+}
+ */
+/* .userLogin .loginWhithFacebook:hover > .transionHover{
+    right: 0;
+    width: 1010%;
+    transition: all 5s;
+
+}
+
+.userLogin .transionHover{
+    background-color: var(--color-neonYellow);
+    padding: 40px;
+    position: absolute;
+    right: -840px;
+    top: 0;
+    width: 100%;
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+    transition: all 2s;
+} */
+
+@media (min-width: 1024px) {
+    
+    .userLogin {
+        width: 60%;
+        margin: 0 auto;
+        background-color: var(--color-productGround);
+        border-radius: 10px;
+        box-shadow: 12px 14px 13px 2px #000;
+    }
+}

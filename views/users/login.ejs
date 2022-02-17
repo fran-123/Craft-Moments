@@ -1,0 +1,56 @@
+<%- include("../partials/head") %>
+
+    <body>
+        <%- include("../partials/header") %>
+            <main class="userLogin">
+                <div class="containTitle">
+                    <h1 class="containTitle__title">Bien venido a craft moment</h1>
+                </div>
+
+                <form action="" class="formLogin">
+                    <div class="contain__IrRegister">
+                        <a href="" class="formLogin__IrRegister">todavia no estas registrado?</a>
+                    </div>
+
+                    <article class="cardIngreso">
+                        <div class="cardIngreso__containInput">
+                            <span class="cardIngreso__containInput--span">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                                <input class="cardIngreso__containInput--input" type="text" name="email" placeholder="Tu Email">
+                        </div>
+                        <div class="cardIngreso__containInput">
+                            <span class="cardIngreso__containInput--span">
+                                <i class="fas fa-lock"></i>
+                            </span>
+                            <input class="cardIngreso__containInput--input" type="text" name="password" placeholder="Tu Contraseña">
+                        </div>
+                    </article>
+
+                    <div class="containButton">
+                        <button class="containButton__button">Ingresar</button>
+                    </div>
+
+                    <div class="contaonOtherLogin">
+                        <div class="containOR">
+                        </div class="containOR__linea"><span><i class="fab fa-angellist"></i></span>
+                        <div>
+                        </div>
+                    </div>
+
+                    <article class="otherCardIngreso">
+                        <div class="otherCardIngreso__containInput">
+                            <span class="otherCardIngreso__containInput--span"><i class="fab fa-google"></i></span>
+                            <button class="loginWhithGoogle">Ingreasr Con Google</button>
+                        </div>
+                        <div class="otherCardIngreso__containInput">
+                            <span class="otherCardIngreso__containInput--span"><i class="fab fa-facebook"></i></i></span>
+                            <button class="loginWhithFacebook"><!-- <span class="transionHover"></span> --> Ingresar Con Facebook</button>
+                        </div>
+                    </article>
+                </form>
+            </main>
+            <%- include("../partials/footer") %>
+    </body>
+
+    </html>

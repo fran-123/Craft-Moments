@@ -2,7 +2,10 @@
 @import url("/stylesheets/header.css");
 @import url("/stylesheets/home.css");
 @import url("/stylesheets/footer.css");
-
+@import url("/stylesheets/productDetail.css");
+@import url("/stylesheets/cardProduct.css");
+@import url("/stylesheets/listProducts.css");
+@import url("/stylesheets/login.css");
 /* fuentes de letras */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); /* titulos */
